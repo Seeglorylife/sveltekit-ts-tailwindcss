@@ -23,7 +23,7 @@ npm run dev -- --open
 To create a production version of your app:
 
 ```bash
-npm run build
+npm run build:env(dev/test/uat/prod)
 ```
 
 You can preview the production build with `npm run preview`.
